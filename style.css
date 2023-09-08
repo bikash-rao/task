@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  padding-top: 1vh;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: Open Sans;
+  transition: ease 0.3s;
+}
+*::selection {
+  color: white;
+  background: #4968ad;
+}
+
+body {
+  background: #4968ad;
+}
+
+.container {
+  background: white;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  margin-top: 80px;
+  padding: 30px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
+  color: #1e2c4b;
+  font-size: 11px;
+}
+
+.heading {
+  font-size: 16px;
+  /* width: 150px; */
+}
+
+.para {
+  font-weight: 600;
+}
+
+.fb,
+button {
+  color: white;
+  background: #4968ad;
+  width: 250px;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+span {
+  color: white;
+  background: #4968ad;
+  width: 250px;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+form {
+  flex-direction: column;
+  align-items: center;
+}
+
+form .formbox input {
+  width: 100%;
+  max-width: 250px;
+  padding: 8px;
+  border: solid 2px #e4edfb;
+  border-radius: 5px;
+  outline: none;
+}
+
+form .row {
+    display: flex;
+    align-items: end;
+    gap: 1vh;
+    padding-bottom: 2vh;
+  }
+
+button {
+  border: none;
+  /* background: #1e2c4b; */
+  cursor: pointer;
+}
+
+
+.deletebutton{
+  margin: 10px;
+  background-color: red;
+}
+
+button:hover,
+a:hover {
+  opacity: 0.9;
+}
+
+.foot {
+  font-size: 12px;
+  width: 210px;
+}
+
+
+.box-placeholder {
+  display: flex;
+  flex-direction: column;
+  /* align-content: flex-start; */
+  align-items: flex-start;
+}
